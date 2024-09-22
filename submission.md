@@ -10,13 +10,13 @@
 * Files for this task: 
 <!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
 
-`File1 Name`: 
-Description of what this file does.
+`explore_wedge.ipynb`: 
+The notebook is focused on data cleaning, exploration and preparing it for smooth uploading into a database.
 
 <!--  Repeat for each file  --> 
-
+`to_the_cloud.ipynb`: 
+ This notebook is designed to handle data extraction, transformation, and loading (ETL) tasks, specifically for loading cleaned and processed data into GBQ from local CSV files. 
 
 
 ### Task 2
@@ -24,10 +24,8 @@ Description of what this file does.
 * Files for this task: 
 <!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
-
-`File1 Name`: 
-Description of what this file does.
+`GBQ_owner_query.ipynb`: 
+This notebook focuses on data processing and querying related to ownership data, with the ultimate goal of utilizing GBQ for storage and analysis.
 
 <!--  Repeat for each file  --> 
 	
@@ -37,10 +35,10 @@ Description of what this file does.
 * Files for this task: 
 <!--  List of file or files here  --> 
 
-Loads all data into GBQ data set.
 
-`File1 Name`: 
-Description of what this file does.
+
+`building_summary_tables.ipynb`: 
+This notebook focuses on creating tables from GBQ queries and creating a local SQLite database from the data retrieved from GBQ.
 
 <!--  Repeat for each file  --> 
 
