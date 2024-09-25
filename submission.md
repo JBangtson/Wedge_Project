@@ -55,29 +55,29 @@ When calculating relative difference, use the formula
 
 |  Query  |  Your Results  |  John's Results | Difference | Rel. Diff | 
 |---|---|---|---|---|
-| Total Rows  |  85,090,487 |   |   |   |
-| January 2012 Rows  |  1,033,526 |   |   |   |
-| October 2012 Rows  | 998,013  |   |   |   |
+| Total Rows  |  85,760,124 |   |   |   |
+| January 2012 Rows  |  1,070,907 |   |   |   |
+| October 2012 Rows  | 1,029,592  |   |   |   |
 | Month with Fewest  |  February (2) |   | Yes/No  | NA  |
-| Num Rows in Month with Fewest  |  6,022,055 |   |   |   |
-| Month with Most  | May  |   | Yes/No  | NA  |
-| Num Rows in Month with Most  |  7,513,559 |   |   |   |
-| Null_TS  | 0  |   |   |   |
+| Num Rows in Month with Fewest  |  6,556,769 |   |   |   |
+| Month with Most  | April  |   | Yes/No  | NA  |
+| Num Rows in Month with Most  |  7,417,387 |   |   |   |
+| Null_TS  | 785472  |   |   |   |
 | Null_DT  | 0  |   |   |   |
-| Null_Local  |  225204 |   |   |   |
-| Null_CN  | 102  |   |   |   |
+| Null_Local  |  234839 |   |   |   |
+| Null_CN  | 0  |   |   |   |
 | Num 5 on High Volume Cards  |  14987 |   | Yes/No  | NA  |
-|  Num Rows for Number 5 | 448,508  |   |   |   |
-| Num Rows for 18736  |  12,072 |   |   |   |
+|  Num Rows for Number 5 | 460,625  |   |   |   |
+| Num Rows for 18736  |  12,153 |   |   |   |
 | Product with Most Rows  | Banana Organic  |   | Yes/No  | NA  |
-| Num Rows for that Product  |  881,188 |   |   |   |
+| Num Rows for that Product  |  908,637 |   |   |   |
 | Product with Fourth-Most Rows  |  Avocado Hass Organic |   | Yes/No  | NA  |
-| Num Rows for that Product  |  437,719 |   |   |   |
-| Num Single Record Products  |  6,821 |   |   |   |
+| Num Rows for that Product  |  456,771 |   |   |   |
+| Num Single Record Products  |  2,741 |   |   |   |
 | Year with Highest Portion of Owner Rows  | 2014  |   | Yes/No  | NA |
-| Fraction of Rows from Owners in that Year  | 75.81%  |   |   |   |
-| Year with Lowest Portion of Owner Rows  |  2012 |   | Yes/No  | NA |
-| Fraction of Rows from Owners in that Year  |  73.36% |   |   |   |
+| Fraction of Rows from Owners in that Year  | 75.91%  |   |   |   |
+| Year with Lowest Portion of Owner Rows  |  2011 |   | Yes/No  | NA |
+| Fraction of Rows from Owners in that Year  |  73.72% |   |   |   |
 
 ## Reflections
 
