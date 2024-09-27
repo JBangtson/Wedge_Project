@@ -3,6 +3,7 @@ data/*
 graveyard/*
 owner_data_folder/*
 summary_tables/*
+owner_data_folder_redo/*
 
 
 # Byte-compiled / optimized / DLL files
