@@ -3,7 +3,7 @@
 
 ## Wedge Project
 
-The meaning of this notebook is to summarize the Wedge Project and to check for accuracy in the ETL process. The first section of the project was extracting the data from zip files and creating metadata for exploration. The second section of the project consisted of creating data cleaning functions specific to the project, and transforming and loading the data into GBQ. In the third section, text files were created from GBQ owner-specific queries. In the final section, data was downloaded from GBQ using queries, then the data was loaded into a SQL db. 
+The meaning of this file is to summarize the Wedge Project and to check for accuracy in the ETL process. The first section of the project was extracting the data from zip files and creating metadata for exploration. The second section of the project consisted of creating data cleaning functions specific to the project, and transforming and loading the data into GBQ. In the third section, text files were created from GBQ owner-specific queries. In the final section, data was downloaded from GBQ using queries, then the data was loaded into a SQL db. 
 
 ### Task 1
 
