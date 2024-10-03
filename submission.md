@@ -55,29 +55,31 @@ When calculating relative difference, use the formula
 
 |  Query  |  Your Results  |  John's Results | Difference | Rel. Diff | 
 |---|---|---|---|---|
-| Total Rows  |  85,760,124 |   |   |   |
-| January 2012 Rows  |  1,070,907 |   |   |   |
-| October 2012 Rows  | 1,029,592  |   |   |   |
-| Month with Fewest  |  February (2) |   | Yes/No  | NA  |
-| Num Rows in Month with Fewest  |  6,556,769 |   |   |   |
-| Month with Most  | May  |   | Yes/No  | NA  |
-| Num Rows in Month with Most  |  7,5787,371 |   |   |   |
-| Null_TS  | 485,472  |   |   |   |
-| Null_DT  | 0  |   |   |   |
-| Null_Local  |  234839 |   |   |   |
-| Null_CN  | 0  |   |   |   |
-| Num 5 on High Volume Cards  |  14987 |   | Yes/No  | NA  |
-|  Num Rows for Number 5 | 460,625  |   |   |   |
-| Num Rows for 18736  |  12,153 |   |   |   |
-| Product with Most Rows  | Banana Organic  |   | Yes/No  | NA  |
-| Num Rows for that Product  |  908,637 |   |   |   |
-| Product with Fourth-Most Rows  |  Avocado Hass Organic |   | Yes/No  | NA  |
-| Num Rows for that Product  |  456,771 |   |   |   |
-| Num Single Record Products  |  2,741 |   |   |   |
-| Year with Highest Portion of Owner Rows  | 2014  |   | Yes/No  | NA |
-| Fraction of Rows from Owners in that Year  | 75.91%  |   |   |   |
-| Year with Lowest Portion of Owner Rows  |  2011 |   | Yes/No  | NA |
-| Fraction of Rows from Owners in that Year  |  73.72% |   |   |   |
+| Total Rows  |  85,760,124 | 85,760,139  | -15  | 15  |
+| January 2012 Rows  |  1,070,907 |  1,070,907 | 0  | 0  |
+| October 2012 Rows  | 1,029,592  | 1,029,592  | 0  |  0 |
+| Month with Fewest  |  February (2) | Yes  | Yes/No  | NA  |
+| Num Rows in Month with Fewest  |  6,556,769 |  6,556,770 | -1 | 1  |
+| Month with Most  | May  | Yes  | Yes/No  | NA  |
+| Num Rows in Month with Most  |  7,578,371 | 7,578,372  | -1  |  1 |
+| Null_TS  | 485,472  | 7,123,792  | -6,338,320 | -6,338,320  |
+| Null_DT  | 0  |  0 |  0 | 0  |
+| Null_Local  |  234,839 |  234,843 | -6  | 6  |
+| Null_CN  | 0  | 0  |  0 | 0  |
+| Num 5 on High Volume Cards  |  14987 | Yes  | Yes/No  | NA  |
+|  Num Rows for Number 5 | 460,625  | 460,630  | -5  | 5  |
+| Num Rows for 18736  |  12,153 |  12,153 | 0  |  0 |
+| Product with Most Rows  | Banana Organic  | Yes  | Yes/No  | NA  |
+| Num Rows for that Product  |  908,637 |  908,639 | -2  | 2  |
+| Product with Fourth-Most Rows  |  Avocado Hass Organic | Yes  | Yes/No  | NA  |
+| Num Rows for that Product  |  456,771 | 456,771  | 0  | 0  |
+| Num Single Record Products  |  2,741 |  2,769 | -28  | 28  |
+| Year with Highest Portion of Owner Rows  | 2014  | Yes  | Yes/No  | NA |
+| Fraction of Rows from Owners in that Year  | 75.91%  |  75.91%  |  0% |  0% |
+| Year with Lowest Portion of Owner Rows  |  2011 | Yes  | Yes/No  | NA |
+| Fraction of Rows from Owners in that Year  |  73.72% |  73.72% | 0%  | 0%  |
+
+Note: I have such a large difference in Null_TS due to changing the strings to "" instead of NULL. I have 5,398
 
 ## Reflections
 
