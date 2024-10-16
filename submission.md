@@ -79,7 +79,7 @@ When calculating relative difference, use the formula
 | Year with Lowest Portion of Owner Rows  |  2011 | Yes  | Yes/No  | NA |
 | Fraction of Rows from Owners in that Year  |  73.72% |  73.72% | 0%  | 0%  |
 
-Note: I have such a large difference in Null_TS due to changing the strings to "" instead of NULL. I have 5,398
+Note: I have such a large difference in Null_TS due to changing the strings to " " instead of NULL. I have 65,065,888 rows of " " in the trans_subtype column; in this context there is a 1,239,440 relative distance with John still having greater NULL_TS. 
 
 ## Reflections
 
