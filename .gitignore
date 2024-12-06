@@ -1,8 +1,6 @@
 .DS_Store
 data/*
-graveyard/*
 owner_data_folder/*
-summary_tables/*
 owner_data_folder_redo/*
 
 
